@@ -3,6 +3,6 @@ config()
 
 
 export default {
-port:process.env.PORTS || 3030
+port:process.env.PORTS
 
 }

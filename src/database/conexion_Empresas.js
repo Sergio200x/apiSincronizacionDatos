@@ -13,7 +13,7 @@ options: {
   }
 }
 
-export async function getConettion_tickets(){ 
+export async function getConettion_empresas(){ 
 
     try {
         const pool = await sql.connect(sqlConfig)
